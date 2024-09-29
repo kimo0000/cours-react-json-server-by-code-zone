@@ -1,0 +1,46 @@
+.all_products {
+    width: 100%;
+}
+table {
+    width: 100%;
+    border: 1px solid #777;
+    /* margin: 0 auto; */
+}
+thead {
+    background-color: #ddd;
+}
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th, td {
+    width: 80px;
+    padding: 0px 10px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+@media (max-width: 868px) {
+    .btns {
+        flex-direction: column;
+        padding: 6px;
+    }
+}
+.btns .delete,
+.btns .view,
+.btns .edit {
+    color: #fff;
+    font-size: 8px;
+}
+/* .btns .delete {
+    background-color: red;
+}
+.btns .view {
+    background-color: green;
+}
+.btns .edit {
+    background-color: yellow;
+} */

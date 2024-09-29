@@ -1,0 +1,8 @@
+.sidebar {
+    width: 20%;
+}
+.menu {
+    min-width: 25%;
+    background-color: #eee;
+    height: 100vh;
+}
